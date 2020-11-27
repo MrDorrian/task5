@@ -2,7 +2,7 @@
 
 :root {
   --backcolgrey: rgb(236, 236, 236);
-  --backcollightgrey: rgb(252, 249, 249);
+  --backcollightgrey: rgb(245, 244, 244);
   margin: 15px;
   text-align: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -109,4 +109,7 @@ tfoot button {
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(88, 88, 88);
+}
+tfoot button:hover{
+  background-color: rgb(175, 166, 149);
 }
