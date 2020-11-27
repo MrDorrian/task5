@@ -1,0 +1,112 @@
+@import url("../css/reset.css");
+
+:root {
+  --backcolgrey: rgb(236, 236, 236);
+  --backcollightgrey: rgb(252, 249, 249);
+  margin: 15px;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
+
+thead td {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+thead td + td {
+  height: 150px;
+  width: 7em;
+  text-align: center;
+}
+thead td:first-child {
+  background-color: rgb(134, 151, 248);
+  border-top-left-radius: 15px;
+}
+
+thead td:last-child {
+  background-color: rgb(0, 3, 92);
+  border-top-right-radius: 15px;
+}
+
+thead td:nth-child(2) {
+  background-color: rgb(49, 104, 231);
+}
+
+thead td:nth-child(3) {
+  background-color: rgb(27, 72, 207);
+}
+
+thead td:nth-child(4) {
+  background-color: rgb(16, 52, 145);
+}
+
+thead p:nth-child(2) {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+tbody td:first-child {
+  text-align-last: left;
+  padding-left: 25px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--backcolgrey);
+}
+
+tbody tr:first-child td:nth-child(even) {
+  background-color: var(--backcollightgrey);
+}
+
+tbody tr:last-child td:nth-child(odd) {
+  background-color: var(--backcollightgrey);
+}
+
+tbody tr:nth-child(2) td:nth-child(odd) {
+  background-color: var(--backcollightgrey);
+}
+
+tbody tr:nth-child(3) td:nth-child(even) {
+  background-color: var(--backcollightgrey);
+}
+
+tbody tr:nth-child(4) td:nth-child(odd) {
+  background-color: var(--backcollightgrey);
+}
+
+tbody tr:nth-child(5) td:nth-child(even) {
+  background-color: var(--backcollightgrey);
+}
+
+tfoot td:first-child{
+  border-bottom-left-radius: 15px;
+}
+
+tfoot td:last-child{
+  border-bottom-right-radius: 15px;
+}
+
+tfoot td:nth-child(odd) {
+  background-color: var(--backcolgrey);
+}
+
+tfoot td:nth-child(even) {
+  background-color: var(--backcollightgrey);
+}
+
+tfoot button {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+}
